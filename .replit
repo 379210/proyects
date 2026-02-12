@@ -4,6 +4,7 @@ expertMode = true
 
 [nix]
 channel = "stable-25_05"
+packages = ["apk-tools"]
 
 [workflows]
 runButton = "Project"
@@ -21,9 +22,9 @@ args = "Run JavaScript"
 name = "Run JavaScript"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "node \"javascript practice.js\""
-
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node curso-asincronismo/javscriptpractice.js"
