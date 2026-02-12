@@ -4,6 +4,7 @@ expertMode = true
 
 [nix]
 channel = "stable-25_05"
+packages = ["apk-tools"]
 
 [workflows]
 runButton = "Project"
@@ -26,4 +27,4 @@ outputType = "console"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node \"javascript practice.js\""
+args = "node "curso-asincronismo\"\"javascriptpractice.js\""
