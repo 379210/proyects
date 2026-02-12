@@ -21,9 +21,9 @@ args = "Run JavaScript"
 name = "Run JavaScript"
 author = "agent"
 
+[workflows.workflow.metadata]
+outputType = "console"
+
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "node \"javascript practice.js\""
-
-[workflows.workflow.metadata]
-outputType = "console"
