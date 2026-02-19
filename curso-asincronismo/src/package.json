@@ -10,5 +10,8 @@
   ],
   "author": "Evan Gallardo <evan.gallardo.laces@gmail.com>",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
