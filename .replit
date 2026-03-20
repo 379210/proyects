@@ -27,4 +27,4 @@ outputType = "console"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node curso-asincronismo/src/promise/challenge.js"
+args = "node curso-asincronismo/src/generator/index.js"
