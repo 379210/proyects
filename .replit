@@ -19,17 +19,12 @@ task = "workflow.run"
 args = "Run html"
 
 [[workflows.workflow]]
-name = "Run html"
+name = "Run Javascript"
 author = "agent"
 
 [workflows.workflow.metadata]
-outputType = "webview"
+outputType = "console"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd /home/runner/workspace/curso-asincronismo/src/async-landing && ./node_modules/.bin/serve -p 5000"
-waitForPort = 5000
-
-[[ports]]
-localPort = 5000
-externalPort = 80
+args = "node async-landing/main.js"
